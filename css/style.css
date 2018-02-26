@@ -1,0 +1,71 @@
+@import url(//db.onlinewebfonts.com/c/2866ff2446c507a76a1e43ccf8880134?family=Simpsonfont);
+#chemin {
+  color: #007BFF;
+  font-weight: 600;
+  font-family: cursive; }
+
+#back {
+  color: white;
+  font-weight: 600;
+  border: 1px solid white;
+  font-family: cursive; }
+
+@media screen and (max-width: 760px) {
+  .clique {
+    width: 250px; } }
+@font-face {
+  font-family: "Simpsonfont";
+  src: url("//db.onlinewebfonts.com/t/2866ff2446c507a76a1e43ccf8880134.eot");
+  src: url("//db.onlinewebfonts.com/t/2866ff2446c507a76a1e43ccf8880134.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/2866ff2446c507a76a1e43ccf8880134.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/2866ff2446c507a76a1e43ccf8880134.woff") format("woff"), url("//db.onlinewebfonts.com/t/2866ff2446c507a76a1e43ccf8880134.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/2866ff2446c507a76a1e43ccf8880134.svg#Simpsonfont") format("svg"); }
+body {
+  display: table;
+  height: 100%;
+  width: 100%;
+  color: #007BFF;
+  font-weight: 600;
+  font-family: cursive;
+  font-family: Simpsonfont;
+  background: url(../img/bg2.jpg) fixed bottom no-repeat;
+  background-size: cover; }
+
+h1 {
+  color: #fcdb00;
+  margin: 20px; }
+
+#back {
+  font-family: Simpsonfont; }
+
+input {
+  font-family: Simpsonfont; }
+
+#top {
+  background-color: #fcdb00;
+  padding: 10px; }
+
+.container {
+  height: auto; }
+
+#arbo {
+  margin-top: 20px;
+  max-height: 100%; }
+
+.clique {
+  max-width: 600px;
+  height: auto;
+  border: 1px solid black;
+  margin-top: 3px;
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.7); }
+
+.folder:hover {
+  color: yellow; }
+
+.file:hover {
+  color: red; }
+
+footer {
+  display: table-row;
+  height: 1px;
+  background-color: #919191; }
+
+/*# sourceMappingURL=style.css.map */
